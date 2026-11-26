@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="TicketFinder" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="TicketFinder_WindowTitle" resname="TicketFinder_WindowTitle">
+				<source>Ticket Finder</source>
+				<target>チケット検索</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_Title" resname="TicketFinder_Title">
+				<source>Ticket Finder</source>
+				<target>チケット検索</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_Subtitle" resname="TicketFinder_Subtitle">
+				<source>Semantic search over 100,000 support tickets with 4D 21 R5 vector indexes</source>
+				<target>10 万件のサポートチケットを意味で検索 ― 4D 21 R5 ベクトルインデックス</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_QueryPlaceholder" resname="TicketFinder_QueryPlaceholder">
+				<source>Describe the problem in your own words</source>
+				<target>困りごとを文章で入力してください（例：VPN がすぐ切れる）</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_Search" resname="TicketFinder_Search">
+				<source>Search</source>
+				<target>検索</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_Clear" resname="TicketFinder_Clear">
+				<source>Clear</source>
+				<target>クリア</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_UseIndex" resname="TicketFinder_UseIndex">
+				<source>Use the vector index</source>
+				<target>ベクトルインデックスを使う</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_Threshold" resname="TicketFinder_Threshold">
+				<source>Similarity ≥</source>
+				<target>類似度 ≥</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_ColumnScore" resname="TicketFinder_ColumnScore">
+				<source>Score</source>
+				<target>類似度</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_ColumnId" resname="TicketFinder_ColumnId">
+				<source>ID</source>
+				<target>ID</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_ColumnPriority" resname="TicketFinder_ColumnPriority">
+				<source>Priority</source>
+				<target>優先度</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_ColumnCategory" resname="TicketFinder_ColumnCategory">
+				<source>Category</source>
+				<target>カテゴリ</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_ColumnTitle" resname="TicketFinder_ColumnTitle">
+				<source>Subject</source>
+				<target>件名</target>
+			</trans-unit>
+			<trans-unit id="TicketFinder_ColumnDescription" resname="TicketFinder_ColumnDescription">
+				<source>Description</source>
+				<target>内容</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

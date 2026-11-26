@@ -1,3 +1,29 @@
 {
-	"dependencies": {}
+	"version": 2100,
+	"dependencies": {
+		"4D AIKit": {
+			"github": "4d/4D-AIKit",
+			"version": "4d"
+		},
+		"llama-cpp": {
+			"github": "miyako/llama-cpp",
+			"version": "20.5.28"
+		},
+		"event": {
+			"github": "miyako/event",
+			"version": "20.0.20"
+		},
+		"workers": {
+			"github": "miyako/workers",
+			"version": "20.0.23"
+		},
+		"tcp": {
+			"github": "miyako/tcp",
+			"version": "20.0.14"
+		},
+		"hash": {
+			"github": "miyako/hash",
+			"version": "20.0.1"
+		}
+	}
 }

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="messages" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="TicketFinder_Samples" resname="TicketFinder_Samples">
+				<source>Sample questions</source>
+				<target>Sample questions</target>
+			</trans-unit>
+			<trans-unit id="Model_Ready" resname="Model_Ready">
+				<source>Embedding model ready (ruri-v3-310m, running locally)</source>
+				<target>Embedding model ready (ruri-v3-310m, running locally)</target>
+			</trans-unit>
+			<trans-unit id="Model_Downloading" resname="Model_Downloading">
+				<source>Downloading the embedding model… {percent}%</source>
+				<target>Downloading the embedding model… {percent}%</target>
+			</trans-unit>
+			<trans-unit id="Model_Loading" resname="Model_Loading">
+				<source>Starting the embedding model…</source>
+				<target>Starting the embedding model…</target>
+			</trans-unit>
+			<trans-unit id="Model_Stopped" resname="Model_Stopped">
+				<source>The embedding model has stopped</source>
+				<target>The embedding model has stopped</target>
+			</trans-unit>
+			<trans-unit id="Model_Error" resname="Model_Error">
+				<source>Embedding model error:</source>
+				<target>Embedding model error:</target>
+			</trans-unit>
+			<trans-unit id="Search_Embedding" resname="Search_Embedding">
+				<source>Vectorising the question…</source>
+				<target>Vectorising the question…</target>
+			</trans-unit>
+			<trans-unit id="Search_Failed" resname="Search_Failed">
+				<source>Search failed:</source>
+				<target>Search failed:</target>
+			</trans-unit>
+			<trans-unit id="Search_ResultIndexed" resname="Search_ResultIndexed">
+				<source>{count} tickets in {ms} ms (vector index)</source>
+				<target>{count} tickets in {ms} ms (vector index)</target>
+			</trans-unit>
+			<trans-unit id="Search_ResultScan" resname="Search_ResultScan">
+				<source>{count} tickets in {ms} ms (full scan, no index)</source>
+				<target>{count} tickets in {ms} ms (full scan, no index)</target>
+			</trans-unit>
+			<trans-unit id="Search_Comparison" resname="Search_Comparison">
+				<source>Last search time: with index {indexed} ms / without index {scan} ms</source>
+				<target>Last search time: with index {indexed} ms / without index {scan} ms</target>
+			</trans-unit>
+			<trans-unit id="Search_NotMeasured" resname="Search_NotMeasured">
+				<source>–</source>
+				<target>–</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
