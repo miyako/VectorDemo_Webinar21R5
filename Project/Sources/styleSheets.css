@@ -1,0 +1,57 @@
+/* Ticket Finder -- cross-platform rules (light / dark) */
+
+.tfHeader {
+	borderStyle: none;
+	stroke: transparent;
+}
+
+.tfHeaderTitle {
+	fontSize: 22px;
+	fontWeight: bold;
+}
+
+.tfHeaderSubtitle {
+	fontSize: 13px;
+}
+
+.tfQuery {
+	fontSize: 15px;
+}
+
+.tfLabel {
+	textAlign: right;
+}
+
+.tfSummary {
+	fontSize: 13px;
+	fontWeight: bold;
+}
+
+.tfCaption {
+	fontSize: 12px;
+}
+
+.tfList,
+listbox.tfList {
+	verticalAlign: middle;
+	fontSize: 13px;
+	alternateFill: automaticAlternate;
+	horizontalLineStroke: transparent;
+	verticalLineStroke: transparent;
+}
+
+@media (prefers-color-scheme: light) {
+	.tfHeader { fill: #0F3D6E; }
+	.tfHeaderTitle { stroke: #FFFFFF; }
+	.tfHeaderSubtitle { stroke: #C9DCF2; }
+	.tfSummary { stroke: #0F3D6E; }
+	.tfCaption { stroke: #5B6573; }
+}
+
+@media (prefers-color-scheme: dark) {
+	.tfHeader { fill: #12263D; }
+	.tfHeaderTitle { stroke: #F2F6FB; }
+	.tfHeaderSubtitle { stroke: #9DB7D5; }
+	.tfSummary { stroke: #9CC8FF; }
+	.tfCaption { stroke: #A3ADBA; }
+}

@@ -1,26 +1,39 @@
-
-# Derived data
+# 4D data, logs and derived files
+# Data/ is distributed as a GitHub release asset (see README), not in Git
+[dD][aA][tT][aA]/
+Logs/
 DerivedData/
-
-# Libraries
 Libraries/
-
-# User preferences
 userPreferences.*/
+
+# Settings/ is machine-specific in this demo (may hold AIProviders.json with API keys)
+Settings/
+AIProviders.json
+
+# Components staged locally for headless runs (the Dependency manager resolves them in 4D)
+Components/
 
 # Conversation logs
 /Conversation/
 
-# AI providers settings (may contain secret API keys)
-AIProviders.json
-
 # 4D data journal
 *.journal
 
-# Uncomment (remove the following # ) to ignore Trash
-Project/Trash
+# Uncomment to ignore the trash
+# Project/Trash
 
 # System files
 .DS_Store
 ehthumbs.db
 Thumbs.db
+
+# Tools provisioned by the 4D skills (see the 4dtools skill)
+/tools/4dcatalog/
+/tools/4dform/
+/tools/4dlsp/
+/tools/4dlang/
+/tools/4dcli/
+
+# Build artefacts of the data generator
+/output/
+__pycache__/

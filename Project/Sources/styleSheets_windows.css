@@ -1,0 +1,21 @@
+/* Windows form themes */
+
+@media (form-theme: fluent-ui) {
+	.default {
+		height: 27px;
+	}
+
+	button.default {
+		height: 27px;
+	}
+}
+
+@media (form-theme: win-classic) {
+	.default {
+		height: 23px;
+	}
+
+	button.default {
+		height: 23px;
+	}
+}
